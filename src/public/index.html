@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta de CNAE • X³ Bank</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/929/929417.png" />
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">🏦 X³ Bank</div>
+    <div class="title">Consulta CNAE</div>
+  </div>
+
+  <main class="container">
+    <section class="card">
+      <h1>📊 Consulta de CNAE</h1>
+      <p class="subtitle">Verifique riscos, limites e parâmetros corporativos</p>
+
+      <div class="input-area">
+        <label for="cnaeInput">Digite o CNAE sem pontos ou traços</label>
+        <div class="input-group">
+          <input id="cnaeInput" type="text" placeholder="Ex: 6201501" maxlength="10" />
+          <button id="btnBuscar">Buscar</button>
+        </div>
+      </div>
+
+      <div id="resultado" class="resultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 X³ Bank • Sistema de Inteligência Empresarial</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
